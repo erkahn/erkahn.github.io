@@ -38,7 +38,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="header-right">
 				<ul>
 					<li><a href="#"><i class="fb"> </i></a></li>
-					<li><a href="https://twitter.com/hakanoerkan"><i class="twt"> </i></a></li>
+					<li><a href="#"><i class="twt"> </i></a></li>
 				<li>
 				<div class="search2">
 					<form>
@@ -58,8 +58,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<li><a href="index.html" data-hover="Ana Sayfa">Ana Sayfa</a></li>
 							<li><a href="about.html" data-hover="Hakkımda">Hakkımda</a></li>
 							<li><a href="photos.html" data-hover="Fotoğraf Hakkında">Fotoğraf Hakkında</a></li>
-							<li><a href="404.html" data-hover="Projeler">Projeler</a></li>
-							<li class="active"><a href="contact.html">Düşüncelerim</a></li>
+							<li class="active"><a href="404.html" >Projeler</a></li>
+							<li><a href="contact.html" data-hover="Düşüncelerim">Düşüncelerim</a></li>
 								<div class="clearfix"> </div>
 						</ul>
 				</div>
@@ -78,13 +78,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- header -->
 <div class="contact-top">
 <div class="container">
-		<h2>Düşüncelerim</h2>			
-			<div class="contact">
-			<p></p>
+		<h2>Projeler</h2>
+				<p>this link dead link</p>
+				<a class="b-home" href="index.html">Back to Home</a>
 		</div>
-			</div>
-</div>	
-	</div>
+</div>
 </div>
 <!-- footer -->
 	<div class="footer">
@@ -115,7 +113,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="top2">
 					<h6>Fotoğraf Kaynağı: </h6>
-					<p><a href=" https://www.instagram.com/hakanoerkan/"> hakanoerkan </a></p>
+					<p><a href="#"> www.instagram.com/hakanoerkan/</a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -124,8 +122,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<i class="lik"></i>
 				</div>
 				<div class="top2">
-					<h6>Website </h6>
-					<p><a href="https://github.com/erkahn"> erkahn </a></p>
+					<h6>Github Profili </h6>
+					<p><a href="#"> https://github.com/erkahn</a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>

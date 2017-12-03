@@ -16,16 +16,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 <script src="js/jquery.min.js"></script>
-<link rel="stylesheet" href="css/swipebox.css">
- <!------ Light Box ------>
-    <script src="js/jquery.swipebox.min.js"></script> 
-    <script type="text/javascript">
-		jQuery(function($) {
-			$(".swipebox").swipebox();
-		});
-	</script>
-    <!------ Eng Light Box ------>
-
 </head>
 <body>
 <!-- header -->
@@ -38,7 +28,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="header-right">
 				<ul>
 					<li><a href="#"><i class="fb"> </i></a></li>
-					<li><a href="https://twitter.com/hakanoerkan"><i class="twt"> </i></a></li>
+					<li><a href="#"><i class="twt"> </i></a></li>
 				<li>
 				<div class="search2">
 					<form>
@@ -56,10 +46,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<span class="menu"> </span>
 						<ul class="cl-effect-15">
 							<li><a href="index.html" data-hover="Ana Sayfa">Ana Sayfa</a></li>
-							<li><a href="about.html" data-hover="Hakkımda">Hakkımda</a></li>
+							<li class="active"><a href="about.html">Hakkımda</a></li>
 							<li><a href="photos.html" data-hover="Fotoğraf Hakkında">Fotoğraf Hakkında</a></li>
 							<li><a href="404.html" data-hover="Projeler">Projeler</a></li>
-							<li class="active"><a href="contact.html">Düşüncelerim</a></li>
+							<li><a href="contact.html" data-hover="Düşüncelerim">Düşüncelerim</a></li>
 								<div class="clearfix"> </div>
 						</ul>
 				</div>
@@ -76,16 +66,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div> 
 </div>
 <!-- header -->
-<div class="contact-top">
+<div class="about">
 <div class="container">
-		<h2>Düşüncelerim</h2>			
-			<div class="contact">
-			<p></p>
-		</div>
+		<h2>Hakkımda</h2>		
+<div class="biography">
+		<div class="biographys">
+			<div class="col-md-4 biography-info">
+				<img src="images/me.JPG" class="img-responsive" alt=""/>
 			</div>
-</div>	
+			<div class="col-md-8 biography-into">
+				<h4>Hakan Erkan</h4>
+				<p>Ben Hakan Erkan. Neredeyse 4 yıldır Linux kullanıcısıyım.Şu an ElementaryOS kullansam da bunun dışında birçok farklı Linux dağıtımı kullandım. Son sınıf öğrencisi olduğum Süleyman Demirel Üniversitesinde Java ve Python'la birçok proje geliştirdik</p>
+				<a href="details.html" class="link">Daha Fazlası</a>
+			</div>
+					<div class="clearfix"> </div>
 	</div>
 </div>
+	</div>
+	</div>
 <!-- footer -->
 	<div class="footer">
 		<div class="container">
@@ -115,7 +113,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="top2">
 					<h6>Fotoğraf Kaynağı: </h6>
-					<p><a href=" https://www.instagram.com/hakanoerkan/"> hakanoerkan </a></p>
+					<p><a href="#"> www.instagram.com/hakanoerkan/</a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -124,8 +122,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<i class="lik"></i>
 				</div>
 				<div class="top2">
-					<h6>Website </h6>
-					<p><a href="https://github.com/erkahn"> erkahn </a></p>
+					<h6>Github Profili </h6>
+					<p><a href="#"> https://github.com/erkahn</a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>

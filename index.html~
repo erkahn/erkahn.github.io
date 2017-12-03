@@ -44,7 +44,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="header-right">
 				<ul>
 					<li><a href="#"><i class="fb"> </i></a></li>
-					<li><a href="https://twitter.com/hakanoerkan"><i class="twt"> </i></a></li>
+					<li><a href="#"><i class="twt"> </i></a></li>
 				<li>
 				<div class="search2">
 					<form>
@@ -95,7 +95,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="dapibus">
 										<h2>Örnek İşletim Sistemi</h2>
-										<p class="adm"> <a href="about.html">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="about.html">Hakan Erkan</a></p>
 										<a href="details.html"><img src="" class="img-responsive" alt=""></a>
 										<p>İşletim sistemi yapısına giriş amacıyla hazırlanmış, VirtualBox'ta çalıştırılabilecek bir sistem.</p>
 										<a href="404.html" class="link">Read More</a>
@@ -106,7 +106,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="integer">
 										<h3>Temel Hesap Makinesi -C-</h3>
-										<p class="adm"> <a href="about.html">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="about.html">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>En temel algoritma mantığını anlamak için C dilinde yazılmış basit hesap makinesi</p>
 										<a href="404.html" class="link">Read More</a>
@@ -117,7 +117,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="dapibus">
 										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
@@ -127,14 +127,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="col-md-3 integ">
 								<div class="l_g_r">
 									<div class="posts">
-										<h4>Son Gönderiler</h4>
+										<h4>Recent posts</h4>
 										<h6><a href="#">Örnek işletim sistemi</a></h6>
 										<h6><a href="#">Hesap makinesi</a></h6>
 										<h6><a href="#"></a></h6>
 										<h6><a href="#"></a></h6>
 									</div>
 									<div class="archievs">
-										<h4>Arşiv</h4>
+										<h4>Archives</h4>
 										<h6><a href="#">Aralık 2017</a></h6>
 										<h6><a href="#"></a></h6>
 										<h6><a href="#"></a></h6>
@@ -152,7 +152,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="dapibus">
 										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
@@ -163,7 +163,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="integer">
 										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<p></p>
 										<a href="404.html" class="link">Read More</a>
 									</div>
@@ -173,7 +173,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="lorem">
 										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
 									</div>
@@ -189,7 +189,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="dapibus">
 										<h2>Yakında</h2>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
@@ -200,7 +200,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="vitae">
 										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
@@ -212,7 +212,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="integer">
 										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
@@ -233,7 +233,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="dapibus">
 										<h2>Yakında</h2>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
@@ -244,7 +244,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="vitae">
 										<h3></h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
@@ -256,7 +256,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="integer">
 										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
@@ -276,7 +276,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="dapibus">
 										<h2>Yakında</h2>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
@@ -287,7 +287,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="vitae">
 										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p>Yakında</p>
 										<a href="404.html" class="link">Read More</a>
@@ -299,7 +299,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="l_g_r">
 									<div class="integer">
 										<h3></h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
+										<p class="adm">Posted by <a href="#">Hakan Erkan</a></p>
 										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
 										<p></p>
 										<a href="404.html" class="link">Read More</a>
@@ -352,7 +352,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="top2">
 					<h6>Fotoğraf Kaynağı: </h6>
-					<p><a href="https://www.instagram.com/hakanoerkan/"> hakanoerkan </a></p>
+					<p><a href="https://www.instagram.com/hakanoerkan/"> www.instagram.com/hakanoerkan</a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -362,7 +362,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="top2">
 					<h6>Github Profili </h6>
-					<p><a href="https://github.com/erkahn"> erkahn </a></p>
+					<p><a href="https://github.com/erkahn"> https://github.com/erkahn</a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
