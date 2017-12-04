@@ -38,7 +38,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="header-right">
 				<ul>
 					<li><a href="#"><i class="fb"> </i></a></li>
-					<li><a href="#"><i class="twt"> </i></a></li>
+					<li><a href="https://twitter.com/hakanoerkan"><i class="twt"> </i></a></li>
+					<li><a href="https://www.linkedin.com/in/hakan-erkan-45b1b2b6/"><img src="images/linkedinlogo.jpg" class="img-responsive" height="31" width="31" alt="" /></a></li>					
 				<li>
 				<div class="search2">
 					<form>
@@ -169,7 +170,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="top2">
 					<h6>Fotoğraf Kaynağı: </h6>
-					<p><a href="#"> www.instagram.com/hakanoerkan/</a></p>
+					<p><a href=" https://www.instagram.com/hakanoerkan/"> hakanoerkan </a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -179,7 +180,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 				<div class="top2">
 					<h6>Github Profili </h6>
-					<p><a href="#"> https://github.com/erkahn</a></p>
+					<p><a href="https://github.com/erkahn"> erkahn </a></p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
