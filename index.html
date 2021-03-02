@@ -1,375 +1,371 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-<title>Hakan Erkan Kişisel Bloğu</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Hakan Erkan,Blog,Linux,fotoğraf,düşünceler,fikirler,Java" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-<script src="js/jquery.min.js"></script>
-<script>
-		$(document).ready(function () {
-		    size_li = $("#myList li").size();
-		    x=3;
-		    $('#myList li:lt('+x+')').show();
-		    $('#loadMore').click(function () {
-		        x= (x+1 <= size_li) ? x+1 : size_li;
-		        $('#myList li:lt('+x+')').show();
-		    });
-		    $('#showLess').click(function () {
-		        x=(x-1<0) ? 1 : x-1;
-		        $('#myList li').not(':lt('+x+')').hide();
-		    });
-		});
-	</script>
+	<head>
+		<title>Hakan Erkan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" type="image/x-icon" href="images/dice.png" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-</head>
-<body>
-<!-- header -->
-<div class="banner">
-	<div class="container">
-		<div class="header">
-			<div class="logo">
-				<a href="index.html"><img src="images/me.JPG" class="img-circle" alt="" /> <img src="images/baslik.png" class="img-responsive" alt="" /> </a>
-			</div>
-			<div class="header-right">
-				<ul>
-					<li><a href="#"><i class="fb"> </i></a></li>
-					<li><a href="https://twitter.com/hakanoerkan"><i class="twt"> </i></a></li>
-					<li><a href="https://www.linkedin.com/in/hakan-erkan-45b1b2b6/"><img src="images/linkedinlogo.jpg" class="img-responsive" height="31" width="31" alt="" /></a></li>					
-				<li>
-				<div class="search2">
-					<form>
-						<input type="text" value="Search.." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search..';}">
-						<input type="submit" value="">
-					</form>
-				</div></li>
-					<div class="clearfix"></div>
-				</ul>
-					
-			</div>
-				<div class="clearfix"> </div>
-			</div>
-				<div class="head-nav">
-					<span class="menu"> </span>
-						<ul class="cl-effect-15">
-						<li class="active"><a href="index.html">Ana Sayfa</a></li>
-							<li><a href="about.html" data-hover="Hakkımda">Hakkımda</a></li>
-							<li><a href="photos.html" data-hover="Fotoğraf Hakkında">Fotoğraf Hakkında</a></li>
-							<li><a href="404.html" data-hover="Projeler">Projeler</a></li>
-							<li><a href="contact.html" data-hover="Düşüncelerim">Düşüncelerim</a></li>
-								<div class="clearfix"> </div>
-						</ul>
-				</div>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-						<!-- script-for-nav -->
-					<script>
-						$( "span.menu" ).click(function() {
-						  $( ".head-nav ul" ).slideToggle(300, function() {
-							// Animation complete.
-						  });
-						});
-					</script>
-				<!-- script-for-nav --> 					 
-	</div> 
-</div>
-<!-- header -->
-
-<!-- content -->
-<div class="content">
-	<div class="container">
-	 <div class="load_more">	
-			     <ul id="myList">
-			        <!-- These are our grid blocks -->
-			        <li>
-						<div class="l_g">
-							<div class="col-md-3 praesent">
-								<div class="l_g_r">
-									<div class="dapibus">
-										<h2>Örnek İşletim Sistemi</h2>
-										<p class="adm"> <a href="about.html">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="" class="img-responsive" alt=""></a>
-										<p>İşletim sistemi yapısına giriş amacıyla hazırlanmış, VirtualBox'ta çalıştırılabilecek bir sistem.</p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-									<div class="integer">
-										<h3>Temel Hesap Makinesi -C-</h3>
-										<p class="adm"> <a href="about.html">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>En temel algoritma mantığını anlamak için C dilinde yazılmış basit hesap makinesi</p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-									<div class="dapibus">
-										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-									<div class="posts">
-										<h4>Son Gönderiler</h4>
-										<h6><a href="#">Örnek işletim sistemi</a></h6>
-										<h6><a href="#">Hesap makinesi</a></h6>
-										<h6><a href="#"></a></h6>
-										<h6><a href="#"></a></h6>
-									</div>
-									<div class="archievs">
-										<h4>Arşiv</h4>
-										<h6><a href="#">Aralık 2017</a></h6>
-										<h6><a href="#"></a></h6>
-										<h6><a href="#"></a></h6>
-										<h6><a href="#"></a></h6>
-									</div>
-
-								</div>
-							</div>
-							<div class="clearfix"></div>
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+						<span class="fas fa-dice-d20 fa-2x"></span>
 						</div>
-					</li>
-					 <li>
-						<div class="l_g">
-							<div class="col-md-3 praesent">
-								<div class="l_g_r">
-									<div class="dapibus">
-										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
-								</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Hakan Erkan</h1>
+								<p>This is a simple page for you <br />
+								to get to know me.</p>
 							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-									<div class="integer">
-										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<p></p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-									<div class="lorem">
-										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix"></div>
 						</div>
-					</li>
-			        <!----//--->
-					 <li>
-						<div class="l_g">
-							<div class="col-md-3 praesent">
-								<div class="l_g_r">
-									<div class="dapibus">
-										<h2>Yakında</h2>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Intro</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p>Greetings! I am Hakan Erkan, currently living in Vilnius, Lithuania, studying for a Master's Degree in Theoretical Physics and Astrophysics in Vilnius University.</p>
+								<p>I was always very fond of science, reading scientific papers and researching a new, irrespective of grasping everything. And I choose to pursue that path academically after I graduated as a computer engineer.</p>
+								<p>	Moreover, I am interested in open-source technologies and I developed various codes in different languages, used preferably Linux-based distributions. You can find links about my latest projects <a href="#work">in here</a>.</p>
+								<p>Lastly, my goal is to gain new skills, abilities and knowledge, and spread them anytime to anyone when I have the opportunity.</p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Work</h2>
+								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<p>Here, you can find the details about my latest projects and their links. Also, in the <a href="#contact">Contact</a> section, you can reach my GitHub and LinkedIn profiles.</p>
+								<p>You can reach my repository about the exercises that coded in R language from <a href="https://github.com/erkahn/r_examples"> this link</a>. It contains various operations including the elementary matrix/vector comparisons, file reading/writing examples and the graph of the Poisson distribution.</p>
+								<p><a href="https://github.com/erkahn/mpi_examples_c"> In this link</a>, you can find the codes I wrote in C++ that calculates the integral of the functions by Trapezoid and Simpson's Rules.</p>
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/pic03_effect.jpg" alt="" /></span>
+								<p>I graduated from Suleyman Demirel University in 2018 with a Bachelor's Degree in Computer Engineering. Earlier that year, I spent one of my semester in Lublin, Poland through an Erasmus exchange programme. I have travelled six countries, nine cities. I had amazing experiences including to meet Dan Brown in his book tour, Origin.</p>
+								<p>After my graduation, I worked as a software specialist for two years in a software company, Etiya. Then I came to Vilnius, Lithuania to study for a Master's Degree in Theoretical Physics and Astrophysics at Vilnius University.</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<span class="image main"><img src="images/mail.jpeg" alt="" /></span>
+						<!--		<form method="post" action="mailto:hakanxerkan@gmail.com" enctype=”application/x-www-form-urlencoded”>
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
 									</div>
-								</div>
-							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-									<div class="vitae">
-										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form> -->
+								<p>You can find my LinkedIn and GitHub account links below.</p>
+								<p>If you have some questions or want to make contact with me, you can also send an email from the little envelope here.</p>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/hakan-erkan-45b1b2b6/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+									<li><a href="https://github.com/erkahn" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="mailto:hakanxerkan@gmail.com" class="fas fa-envelope"><span class="label"></span></a></li>
+								</ul>
+							</article>
+<!--
+						 Elements
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
 									</div>
 
-								</div>
-							</div>
-							<div class="col-md-3 praesent">
-								<div class="l_g_r">
-									<div class="integer">
-										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
 									</div>
-								</div>
-							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</li>
-			        <!----//--->
-			          <li>
-						<div class="l_g">
-							<div class="col-md-3 praesent">
-								<div class="l_g_r">
-									<div class="dapibus">
-										<h2>Yakında</h2>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-									<div class="vitae">
-										<h3></h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
+								</section>
 
-								</div>
-							</div>
-							<div class="col-md-3 praesent">
-								<div class="l_g_r">
-									<div class="integer">
-										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</li>
-					 <li>
-						<div class="l_g">
-							<div class="col-md-3 praesent">
-								<div class="l_g_r">
-									<div class="dapibus">
-										<h2>Yakında</h2>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-									<div class="vitae">
-										<h3>Yakında</h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p>Yakında</p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
 
-								</div>
-							</div>
-							<div class="col-md-3 praesent">
-								<div class="l_g_r">
-									<div class="integer">
-										<h3></h3>
-										<p class="adm"> <a href="#">Hakan Erkan</a> tarafından gönderildi.</p>
-										<a href="details.html"><img src="images/" class="img-responsive" alt=""></a>
-										<p></p>
-										<a href="404.html" class="link">Read More</a>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-3 integ">
-								<div class="l_g_r">
-								</div>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</li>
-					<div class="clearfix"></div>
-					 <!----//--->
-			      </ul>
-				  <div id="loadMore">Load more</div>
-	<div id="showLess">Show less</div>
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
 
-			    </div>
-	</div>
-</div>
-<!-- content -->	
-<!-- footer -->
-	<div class="footer">
-		<div class="container">
-			<div class="col-md-3 copy">
-				<div class="top1">
-					<i class="ham"></i>
-				</div>
-				<div class="top2">
-					<h6>Copyrights © 2015 Graphic</h6>
-					<p>All rights reserved</p>
-				</div>
-				<div class="clearfix"> </div>
+							</article>
+-->
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Hakan Erkan. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
 			</div>
-			<div class="col-md-3 copy">
-				<div class="top1">
-					<i class="men"></i>
-				</div>
-				<div class="top2">
-					<h6>Template by: </h6>
-					<p><a href="http://w3layouts.com/">W3layouts</a></p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-3 copy">
-				<div class="top1">
-					<i class="app"></i>
-				</div>
-				<div class="top2">
-					<h6>Fotoğraf Kaynağı: </h6>
-					<p><a href="https://www.instagram.com/hakanoerkan/"> hakanoerkan </a></p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="col-md-3 copy">
-				<div class="top1">
-					<i class="lik"></i>
-				</div>
-				<div class="top2">
-					<h6>Github Profili </h6>
-					<p><a href="https://github.com/erkahn"> erkahn </a></p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-<!-- footer -->
-</body>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
